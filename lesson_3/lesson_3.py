@@ -18,7 +18,7 @@ print(a)
 
 BASE_DIR = os.path.dirname(__file__)
 abs_path = os.path.join(BASE_DIR, r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json')
-efrsb_path = r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json'
+efrsb_path = r'/1000_efrsb_messages.json'
 # traders_csv_path = os.path.join(BASE_DIR, 'traders.csv)
 
 start_time = time()
@@ -80,7 +80,7 @@ print(f'Выполнено за {end_time - start_time} сек')
 def main():
     start_time = time()
     result = set()
-    with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json', 'r')as f:
+    with open(r'/1000_efrsb_messages.json', 'r')as f:
         data = json.load(f)
 
         pattern = r'\b^\d{10}\b'
