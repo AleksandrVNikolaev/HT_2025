@@ -80,7 +80,7 @@ print(f'Выполнено за {end_time - start_time} сек')
 def main():
     start_time = time()
     result = set()
-    with open(r'/1000_efrsb_messages.json', 'r')as f:
+    with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\lesson_3\1000_efrsb_messages.json', 'r')as f:
         data = json.load(f)
 
         pattern = r'\b^\d{10}\b'
