@@ -1,9 +1,14 @@
 # Домашнее задание № 5. Часть 1
+# Найдите информацию об организациях.
+# a. Получите список ИНН из файла traders.txt.
+# b. Найдите информацию об организациях с этими ИНН в файле traders.json.
+# c. Сохраните информацию об ИНН, ОГРН и адресе организаций из файла traders.txt в файл traders.csv.
 
 import json
 import csv
+import re
 
-# Задание 5.1.1. ИНН из файла traders.txt
+# Задание "а". ИНН из файла traders.txt
 with open('traders.txt', 'r') as file:
     inn_list = [line.strip() for line in file if line.strip()]
 
@@ -11,11 +16,11 @@ print('Список ИНН из файла traders.txt:')
 for inn in inn_list:
     print(inn)
 
-# Задание 5.1.2. Организации из traders.json
+# Задание "b_1". Организации из traders.json
 with open('traders.json', 'r') as file:
     orgs = json.load(file)
 
-# Задание 5.1.3. Фильтрация организаций по ИНН
+# Задание "b_2". Фильтрация организаций по ИНН
 filtered_orgs = []
 
 print('\nНайденные по ИНН организации:')
@@ -30,7 +35,7 @@ for org in orgs:
         }
         filtered_orgs.append(filtered)
 
-# Задание 5.1.4. CSV-файл с отфильтрованными организациями
+# Задание "c". CSV-файл с отфильтрованными организациями
 with open('traders.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file, fieldnames=['short_name', 'inn', 'ogrn', 'address'], delimiter='|')
     writer.writeheader()
@@ -40,3 +45,36 @@ print('\nСохранено в файл traders.csv')
 
 
 # Домашнее задание № 5. Часть 2
+
+
+# 1) Загружаем JSON (здесь вместо файла — просто вставленные данные)
+with open('1000_efrsb_messages.json', 'r') as file:
+    data = json.load(file)
+
+# Функция для поиска email'ов в тексте
+def extract_emails(text: str) -> list:
+    pattern = r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
+    return re.findall(pattern, text)
+
+# Словарь, где ключ — publisher_inn, а значение — множество email-адресов
+email_dict = {}
+
+for item in data:
+    inn = item.get('publisher_inn')
+    text = item.get('msg_text', '')
+    emails = extract_emails(text)
+
+    if emails:
+        if inn not in email_dict:
+            email_dict[inn] = set()
+        email_dict[inn].update(emails)
+
+# Вывод результата
+for inn, emails in email_dict.items():
+    print(f'{inn}: {emails}')
+
+# Сохраняем в JSON
+with open('emails.json', 'w', encoding='utf-8') as f:
+    json.dump({k: list(v) for k, v in email_dict.items()}, f, ensure_ascii=False, indent=2)
+
+print('\nФайл emails.json сохранён.')
