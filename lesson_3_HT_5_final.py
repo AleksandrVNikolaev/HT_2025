@@ -45,18 +45,22 @@ print('\nСохранено в файл traders.csv')
 
 
 # Домашнее задание № 5. Часть 2
+# Напишите регулярное выражение для поиска email-адресов в тексте. Для этого напишите функцию, которая принимает
+# в качестве аргумента текст в виде строки и возвращает список найденных email-адресов или пустой список, если
+# email-адреса не найдены.Используйте датасет на 1 000 сообщений из Единого федерального реестра сведений о банкротстве
+# (ЕФРСБ) для практики. Найдите все email-адреса в датасете и соберите их в словарь, где ключом будет выступать
+# ИНН опубликовавшего сообщение publisher_inn, а в значении будет храниться множество set() с email-адресами.
+# Сохраните собранные данные в файл emails.json.
 
 
-# 1) Загружаем JSON (здесь вместо файла — просто вставленные данные)
+# 1) Загрузка JSON
 with open('1000_efrsb_messages.json', 'r') as file:
     data = json.load(file)
 
-# Функция для поиска email'ов в тексте
+# 2) Функция для поиска e-mail в тексте
 def extract_emails(text: str) -> list:
     pattern = r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
     return re.findall(pattern, text)
-
-# Словарь, где ключ — publisher_inn, а значение — множество email-адресов
 email_dict = {}
 
 for item in data:
@@ -69,11 +73,10 @@ for item in data:
             email_dict[inn] = set()
         email_dict[inn].update(emails)
 
-# Вывод результата
 for inn, emails in email_dict.items():
     print(f'{inn}: {emails}')
 
-# Сохраняем в JSON
+# 3) Сохранение в JSON
 with open('emails.json', 'w', encoding='utf-8') as f:
     json.dump({k: list(v) for k, v in email_dict.items()}, f, ensure_ascii=False, indent=2)
 
