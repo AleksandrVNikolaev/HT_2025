@@ -37,7 +37,7 @@ print(divide_with_no_remainder(14))
 # Домашнее задание № 3. Часть 2
 # Генерация шапки процессуального документа по данным ответчика и суда
 
-from lesson_2_dzdata import respondents, courts
+from lesson_2.lesson_2_dzdata import respondents, courts
 
 
 def gen_header(respondent: dict) -> str:
