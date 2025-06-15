@@ -4,6 +4,22 @@ from decimal import Decimal
 from time import time
 from datetime import datetime, date, timedelta
 import re
+import os
+from dadata import Dadata
+
+
+DADATA_API_KEY = '1efd526145680ad2f94c2b7eb934a75bbf298a40'
+DADATA_SECRET_KEY = '0e6d92377f6a71f5e8d382d7c37c06c576ee1622'
+ddt = Dadata(DADATA_API_KEY, DADATA_SECRET_KEY)
+
+a = ddt.find_by_id('party', '7701272485')
+print(a)
+
+
+BASE_DIR = os.path.dirname(__file__)
+abs_path = os.path.join(BASE_DIR, r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json')
+efrsb_path = r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json'
+# traders_csv_path = os.path.join(BASE_DIR, 'traders.csv)
 
 start_time = time()
 today = datetime.now()
@@ -42,9 +58,6 @@ total = price_1 + price_2
 print(total)
 
 
-abs_path = r'C:\Users\Lenovo\PycharmProjects\PythonProject\traders.txt'
-efrsb_path = r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json'
-traders_csv_path = 'traders.csv'
 
 
 # with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\traders.txt', 'r') as file:
@@ -65,17 +78,19 @@ end_time = time()
 print(f'Выполнено за {end_time - start_time} сек')
 
 def main():
-    result = []
+    start_time = time()
+    result = set()
     with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\1000_efrsb_messages.json', 'r')as f:
         data = json.load(f)
 
         pattern = r'\b^\d{10}\b'
         for i in data:
             a = re.findall(pattern, i['msg_text'])
-            pass
-
+            if a:
+                for y in a:
+                    result.add(y)
+        end_time = time()
         print('stop')
-
 
 
 if __name__ == '__main__':
