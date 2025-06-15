@@ -11,7 +11,7 @@ def extract_emails(text: str) -> list:
 
 def main():
     # Задание "а" — загрузка ИНН из файла traders.txt
-    with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\lesson_3\traders.txt', 'r') as file:
+    with open(r'traders.txt', 'r') as file:
         inn_list = [line.strip() for line in file if line.strip()]
 
     print('Список ИНН из файла traders.txt:')
@@ -19,7 +19,7 @@ def main():
         print(inn)
 
     # Задание "b_1" — загрузка организаций из traders.json
-    with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\lesson_3\traders.json', 'r') as file:
+    with open(r'traders.json', 'r') as file:
         orgs = json.load(file)
 
     # Задание "b_2" — фильтрация организаций по ИНН
@@ -46,7 +46,7 @@ def main():
     print('\nСохранено в файл traders.csv')
 
     # Задание 2. Сбор email-адресов из ЕФРСБ
-    with open(r'C:\Users\Lenovo\PycharmProjects\PythonProject\lesson_3\1000_efrsb_messages.json', 'r') as file:
+    with open(r'1000_efrsb_messages.json', 'r') as file:
         data = json.load(file)
 
     email_dict = {}
