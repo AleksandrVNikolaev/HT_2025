@@ -8,6 +8,7 @@ import json
 import csv
 import re
 
+
 # Задание "а". ИНН из файла traders.txt
 with open('traders.txt', 'r') as file:
     inn_list = [line.strip() for line in file if line.strip()]
@@ -16,9 +17,11 @@ print('Список ИНН из файла traders.txt:')
 for inn in inn_list:
     print(inn)
 
+
 # Задание "b_1". Организации из traders.json
 with open('traders.json', 'r') as file:
     orgs = json.load(file)
+
 
 # Задание "b_2". Фильтрация организаций по ИНН
 filtered_orgs = []
@@ -34,6 +37,7 @@ for org in orgs:
             'address': org.get('address')
         }
         filtered_orgs.append(filtered)
+
 
 # Задание "c". CSV-файл с отфильтрованными организациями
 with open('traders.csv', 'w', newline='', encoding='utf-8') as file:
@@ -57,7 +61,8 @@ print('\nСохранено в файл traders.csv')
 with open('1000_efrsb_messages.json', 'r') as file:
     data = json.load(file)
 
-# 2) Функция для поиска e-mail в тексте
+
+# 2) Функция для поиска e-mail в тексте (https://gist.github.com/cgkio/7268045)
 def extract_emails(text: str) -> list:
     pattern = r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
     return re.findall(pattern, text)
@@ -75,6 +80,7 @@ for item in data:
 
 for inn, emails in email_dict.items():
     print(f'{inn}: {emails}')
+
 
 # 3) Сохранение в JSON
 with open('emails.json', 'w', encoding='utf-8') as f:
