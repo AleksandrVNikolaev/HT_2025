@@ -81,10 +81,3 @@ if __name__ == '__main__':
         if 'case_number' in respondent:
             print(gen_header(respondent))
             print('\n' + '-' * 50 + '\n')
-
-
-def generate_header():
-    return 'Юридическая шапка'
-
-if __name__ == '__main__':
-    print(generate_header())
