@@ -1,82 +1,112 @@
 [
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  },
-  {
-    "cadnum": null,
-    "address": null,
-    "area": null,
-    "category": null,
-    "cost": null,
-    "updated_at": null
-  }
+    {
+        "cadastral_number": "39:05:030612:87",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 73446,
+        "category": null,
+        "price": 630166
+    },
+    {
+        "cadastral_number": "39:05:030612:92",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 28482,
+        "category": null,
+        "price": 244375
+    },
+    {
+        "cadastral_number": "39:05:030612:93",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 36721,
+        "category": null,
+        "price": 322043
+    },
+    {
+        "cadastral_number": "39:05:030612:95",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 56547,
+        "category": null,
+        "price": 485173
+    },
+    {
+        "cadastral_number": "39:05:030612:96",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 92418,
+        "category": null,
+        "price": 792946
+    },
+    {
+        "cadastral_number": "39:05:030612:89",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 110072,
+        "category": null,
+        "price": 944417
+    },
+    {
+        "cadastral_number": "39:05:030612:88",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 119246,
+        "category": null,
+        "price": 1023130
+    },
+    {
+        "cadastral_number": "39:05:030612:94",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 81141,
+        "category": null,
+        "price": 696189
+    },
+    {
+        "cadastral_number": "39:05:030612:86",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 52036,
+        "category": null,
+        "price": 446468
+    },
+    {
+        "cadastral_number": "39:05:030612:100",
+        "address": {
+            "address": "Povarovka, Kaliningrad Oblast, Russia, 238532",
+            "lat": 54.8369732,
+            "lng": 20.0081367
+        },
+        "area": 77161,
+        "category": null,
+        "price": 662041
+    }
 ]
