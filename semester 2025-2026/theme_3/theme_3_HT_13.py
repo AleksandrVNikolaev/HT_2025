@@ -43,7 +43,7 @@ class Rosreestr2Coord:
 
     def start(self) -> List[Dict[str, Any]]:
         """Основной метод: получает данные и сохраняет их в JSON."""
-        print(f'🔍 Получаю данные с Bubble API ({self.BUBBLE_URL})...')
+        print(f'Получаю данные с Bubble API ({self.BUBBLE_URL})...')
         data = self._fetch_from_bubble()
         parsed = self._parse_bubble(data)
         self._save_json(parsed)
@@ -57,7 +57,7 @@ class Rosreestr2Coord:
             response.raise_for_status()
             return response.json()
         except requests.RequestException as e:
-            print(f'⚠️ Ошибка при запросе к Bubble API: {e}')
+            print(f'Ошибка при запросе к Bubble API: {e}')
             return {}
 
     def _parse_bubble(self, data: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -80,15 +80,15 @@ class Rosreestr2Coord:
         """Сохраняет данные в JSON-файл."""
         with open(self._save_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-        print(f'💾 Данные сохранены в {self._save_path}')
+        print(f'Данные сохранены в {self._save_path}')
 
     def _print_summary(self, data: List[Dict[str, Any]]) -> None:
         """Выводит краткое резюме в консоль."""
         if not data:
-            print('⚠️ Нет данных для вывода.')
+            print('Нет данных для вывода.')
             return
 
-        print('\n📋 Краткий отчёт по участкам:')
+        print('\nКраткий отчёт по участкам:')
         for i, item in enumerate(data, start=1):
             print(f"{i}. {item['cadastral_number']} — {item['address']} — {item['area']} м²")
 
