@@ -1,0 +1,87 @@
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=9:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:110&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:143&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:143&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:143&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:110&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:145&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:146&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:143&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:144&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:144&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:143&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=9:05:030616:144&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:144&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:150&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:142&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:140&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=C:\Users\Lenovo\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\Lenovo\PycharmProjects\PythonProject\semester_2025_2026\HT_final\parser_rosreestr.py&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: URL can't contain control characters. '/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\.venv\\Scripts\\python.exe C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\semester_2025_2026\\HT_final\\parser_rosreestr.py&CRS=EPSG:4326' (found at least ' ')
+INFO:rosreestr2coord.logger:URL can't contain control characters. '/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\.venv\\Scripts\\python.exe C:\\Users\\Lenovo\\PycharmProjects\\PythonProject\\semester_2025_2026\\HT_final\\parser_rosreestr.py&CRS=EPSG:4326' (found at least ' ')
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:139&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:12&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:110&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:111&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:110&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:112&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:142&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:111&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:112&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:111&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:112&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:142&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:111&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:112&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:142&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:111&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:141&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:112&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:142&CRS=EPSG:4326

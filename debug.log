@@ -1,0 +1,13 @@
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:109&CRS=EPSG:4326
+ERROR:rosreestr2coord.logger:Request failed: The request timed out
+INFO:rosreestr2coord.logger:The request timed out
+DEBUG:rosreestr2coord.logger:Request URL: https://nspd.gov.ru/api/geoportal/v2/search/geoportal?thematicSearchId=1&query=39:05:030616:144&CRS=EPSG:4326
+INFO:rosreestr2coord.logger:Nothing found
